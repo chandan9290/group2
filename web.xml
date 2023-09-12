@@ -1,0 +1,13 @@
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>2.4</version>
+            <configuration>
+                <!-- You need to configure the webxml attribute here -->
+                <webXml>path/to/your/web.xml</webXml>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
